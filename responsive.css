@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+    /* Adjust the navigation bar */
+    /*nav {
+      flex-direction: column;
+      align-items: center;               //ORTALA
+      gap: 1rem;
+      
+    }*/
+  
+   .nav-links {
+      display: none;
+    }
+  
+    /* Adjust the header section */
+    header {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    
+     nav .btn {
+      display: none;
+    }
+
+    
+
+    header.image::before {
+      font-size: 20rem;
+    }
+  
+    header.image img {
+      max-width: 300px;
+    }
+  
+    /* Adjust the features section */
+   .features {
+      grid-template-columns: 1fr;
+    }
+  
+    /* Adjust the pricing section */
+   .pricing {
+      grid-template-columns: 1fr;
+    }
+  
+    /* Adjust the footer */
+    footer {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    footer.column {
+      margin-bottom: 2rem;
+    }
+  }
